@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - debug:
+        var: lookup('community.general.random_pet')

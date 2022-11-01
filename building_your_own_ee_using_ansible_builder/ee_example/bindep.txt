@@ -1,0 +1,2 @@
+jq [platform:redhat]
+dnf [platform:redhat]
